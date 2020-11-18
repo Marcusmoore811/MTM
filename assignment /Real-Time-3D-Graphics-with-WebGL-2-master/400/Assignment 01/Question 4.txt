@@ -1,0 +1,1 @@
+Retained mode is a higher level abstraction versus Immediate which allows you direct acess to graphics.

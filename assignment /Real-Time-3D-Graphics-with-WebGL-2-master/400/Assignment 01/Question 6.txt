@@ -1,0 +1,2 @@
+Function init() is starting the kernel with the process of excution. The kernel panic will happen if and only if the kernel is not able to start.
+Const canvas document.get
