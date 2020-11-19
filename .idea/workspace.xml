@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="582f9503-ef68-4d22-a831-c36b96654517" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kABCD9Xitwz291g2mEuh6e0IrR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/400" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="582f9503-ef68-4d22-a831-c36b96654517" name="Default Changelist" comment="" />
+      <created>1605133387437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605133387437</updated>
+      <workItem from="1605133389707" duration="808000" />
+      <workItem from="1605134695893" duration="2232000" />
+      <workItem from="1605222300291" duration="221000" />
+      <workItem from="1605222530422" duration="4126000" />
+      <workItem from="1605713996700" duration="6959000" />
+      <workItem from="1605824712259" duration="59000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added folders with files">
+      <created>1605714635696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605714635697</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added folders with files">
+      <created>1605824768325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605824768325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added folders with files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added folders with files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605818416918">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="488" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829@0.23.1440.829" timestamp="1605716239202" />
+    <state x="488" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.832@0.23.1440.832" timestamp="1605818416918" />
+    <state x="97" y="23" key="CommitChangelistDialog2" timestamp="1605824767849">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="97" y="23" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1605714635319" />
+    <state x="97" y="23" key="CommitChangelistDialog2/0.23.1440.831@0.23.1440.831" timestamp="1605824767849" />
+    <state x="327" y="199" key="Vcs.Push.Dialog.v2" timestamp="1605824732700">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="327" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605222586360" />
+    <state x="327" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1605714586885" />
+    <state x="327" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1605824732700" />
+    <state x="144" y="134" width="1060" height="717" key="dock-window-1" timestamp="1605226402720">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="144" y="134" width="1060" height="717" key="dock-window-1/0.23.1440.829@0.23.1440.829" timestamp="1605226402720" />
+  </component>
+</project>
