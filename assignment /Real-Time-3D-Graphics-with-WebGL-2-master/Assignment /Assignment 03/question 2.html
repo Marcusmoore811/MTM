@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Draw a circle that moves in a random direction</title>
+
+<body onload="main()">
+<canvas id="webgl" width="500" height="500">
+</body>
+
+<script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/webgl-utils.js"></script>
+<script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/webgl-debug.js"></script>
+<script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/cuon-utils.js"></script>
+<script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/cuon-matrix.js"></script>
+<script type="text/javascript">
+
+    var VSHADER_SOURCE =
+        'attribute vec4 a_Position;\n' +
+        'uniform mat4 u_ModelMatrix;\n' +
+        'void main() {\n' +
+        '  gl_Position = u_ModelMatrix * a_Position;\n' +
+        '  gl_PointSize = 10.0;\n' +
+        '}\n';
+    var FSHADER_SOURCE =
+        'void main() {\n' +
+        '  gl_FragColor = vec4(0.0, 3.0, 4.0, 7.0);\n' +
+        '}\n';
+
+    function main() {
+        var canvas = document.getElementById('webgl');
+        var gl = getWebGLContext(canvas);
+        if (!gl) {
+            console.log('Failed to get context for WebGL');
+            return;
+        }
+
+
+        if (!initShaders(gl, VSHADER_SOURCE, FSHADER_SOURCE)) {
+            console.log('Intializing shaders failed.');
+            return;
+        }
+
+        var n = initVertexBuffers(gl);
+        if (n < 0) {
+            console.log('Positions of the set vertices failed');
+            return;
+        }
+
+        gl.clearColor(0.9, 0.5, 0.5, 0.9);
+
+        var u_ModelMatrix = gl.getUniformLocation(gl.program, 'u_ModelMatrix');
+        if (!u_ModelMatrix) {
+            console.log('Failed to recieve storage location of u_ModelMatrix');
+            return;
+        }
+
+        var modelMatrix = new Matrix4();
+
+        var x = 0.1, y = 0.1
+        var x_t = 0.004, y_t = 0.0, y_new
+        // Start drawing
+        var tick = function () {
+            if (x >= 1.0 || x <= -1.0) {
+                x_t = -1 * x_t;
+            }
+
+            modelMatrix.translate(x_t, y_t, 0);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            gl.uniformMatrix4fv(u_ModelMatrix, false, modelMatrix.elements);
+            gl.drawArrays(gl.POINTS, 0, n);
+            x = x + x_t;
+            y_new = Math.sin(x*20) / 2;
+            y_t  = y_new - y;
+            y = y_new
+            console.log({'X': x, 'Y': y});
+            requestAnimationFrame(tick, canvas)
+        };
+        tick();
+
+
+    }
+
+    function initVertexBuffers(gl) {
+        var vertices = new Float32Array([
+            0.2, 0.2
+        ]);
+        var n = 1;
+        var vertexBuffer = gl.createBuffer();
+        if (!vertexBuffer) {
+            console.log('Creating buffer failed');
+            return -1;
+        }
+
+        gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+        gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+
+        var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
+        if (a_Position < 0) {
+            console.log('Failed to recieve storage location of a_Position');
+            return -1;
+        }
+
+        gl.vertexAttribPointer(a_Position, 2, gl.FLOAT, false, 0, 0);
+        gl.enableVertexAttribArray(a_Position);
+
+        return n;
+    }
+
+
+</script>
+</head>
+</html>
