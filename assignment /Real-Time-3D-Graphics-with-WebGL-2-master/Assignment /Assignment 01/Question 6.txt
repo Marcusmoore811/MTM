@@ -1,2 +1,8 @@
 Function init() is starting the kernel with the process of excution. The kernel panic will happen if and only if the kernel is not able to start.
-Const canvas document.get
+Line 2 explains the return of the element object which represents id property thst matches the webgl-canvas string.
+Line 3 simply checks to ensure if the canvas is found and if its not found.
+Line 4 displays a meesage which is being returned to the user when the item called or searched upon in canvas can not be found.
+Line 5 is a return method which returns the context on the canvas
+Line 6 exaplains the messages displayed in webgl.
+Line 7 is assinged to whatever gets returned from the inital "int" function.
+Lastly the script set of instructions issued out by the program.

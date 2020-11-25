@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="582f9503-ef68-4d22-a831-c36b96654517" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /question 4 copy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/question 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/question1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="582f9503-ef68-4d22-a831-c36b96654517" name="Default Changelist" comment="Added folders with files">
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 4.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /question 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /question 3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/Question 1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/Triangle .html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/draw-circle.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/quetion1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Excersise Folder /Point_move.html" beforeDir="false" />
@@ -84,7 +76,7 @@
       <workItem from="1606149432787" duration="9639000" />
       <workItem from="1606235407513" duration="5000" />
       <workItem from="1606236070907" duration="906000" />
-      <workItem from="1606238699691" duration="16928000" />
+      <workItem from="1606238699691" duration="17341000" />
     </task>
     <task id="LOCAL-00001" summary="Added folders with files">
       <created>1605714635696</created>
@@ -100,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605824768325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added folders with files">
+      <created>1606276259037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606276259037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,11 +116,12 @@
     </state>
     <state x="488" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829@0.23.1440.829" timestamp="1605716239202" />
     <state x="488" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.832@0.23.1440.832" timestamp="1605818416918" />
-    <state x="97" y="23" key="CommitChangelistDialog2" timestamp="1605824767849">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="97" y="25" key="CommitChangelistDialog2" timestamp="1606276258441">
+      <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="97" y="23" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1605714635319" />
     <state x="97" y="23" key="CommitChangelistDialog2/0.23.1440.831@0.23.1440.831" timestamp="1605824767849" />
+    <state x="97" y="25" key="CommitChangelistDialog2/0.25.1440.824@0.25.1440.824" timestamp="1606276258441" />
     <state width="1419" height="210" key="GridCell.Tab.0.bottom" timestamp="1606271613166">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
@@ -158,12 +158,17 @@
       <screen x="0" y="25" width="1440" height="823" />
     </state>
     <state x="458" y="120" key="SettingsEditor/0.25.1440.823@0.25.1440.823" timestamp="1606269366087" />
-    <state x="327" y="199" key="Vcs.Push.Dialog.v2" timestamp="1605824732700">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="327" y="200" key="Vcs.Push.Dialog.v2" timestamp="1606276275008">
+      <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="327" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605222586360" />
     <state x="327" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1605714586885" />
     <state x="327" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1605824732700" />
+    <state x="327" y="200" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1606276275008" />
+    <state x="532" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606276281642">
+      <screen x="0" y="25" width="1440" height="824" />
+    </state>
+    <state x="532" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1606276281642" />
     <state x="144" y="134" width="1060" height="717" key="dock-window-1" timestamp="1605226402720">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
