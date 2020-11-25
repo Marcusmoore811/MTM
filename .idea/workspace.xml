@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="582f9503-ef68-4d22-a831-c36b96654517" name="Default Changelist" comment="" />
+    <list default="true" id="582f9503-ef68-4d22-a831-c36b96654517" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /question 4 copy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/question 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/question1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /Question 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 01/Question 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /question 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 02 /question 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/Question 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/Triangle .html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 03/draw-circle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/quetion1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Excersise Folder /Point_move.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +47,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/400" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Question1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MTM/assignment /Real-Time-3D-Graphics-with-WebGL-2-master/Assignment /Assignment 04/Question1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Question1.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,6 +79,12 @@
       <workItem from="1605222530422" duration="4126000" />
       <workItem from="1605713996700" duration="6959000" />
       <workItem from="1605824712259" duration="59000" />
+      <workItem from="1605824892971" duration="187000" />
+      <workItem from="1605975838748" duration="452000" />
+      <workItem from="1606149432787" duration="9639000" />
+      <workItem from="1606235407513" duration="5000" />
+      <workItem from="1606236070907" duration="906000" />
+      <workItem from="1606238699691" duration="16928000" />
     </task>
     <task id="LOCAL-00001" summary="Added folders with files">
       <created>1605714635696</created>
@@ -88,6 +122,42 @@
     </state>
     <state x="97" y="23" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1605714635319" />
     <state x="97" y="23" key="CommitChangelistDialog2/0.23.1440.831@0.23.1440.831" timestamp="1605824767849" />
+    <state width="1419" height="210" key="GridCell.Tab.0.bottom" timestamp="1606271613166">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1606271613166" />
+    <state width="1419" height="210" key="GridCell.Tab.0.center" timestamp="1606271613166">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1606271613165" />
+    <state width="1419" height="210" key="GridCell.Tab.0.left" timestamp="1606271613165">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1606271613165" />
+    <state width="1419" height="210" key="GridCell.Tab.0.right" timestamp="1606271613166">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1606271613166" />
+    <state width="1419" height="210" key="GridCell.Tab.1.bottom" timestamp="1606271613168">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.1.bottom/0.25.1440.822@0.25.1440.822" timestamp="1606271613168" />
+    <state width="1419" height="210" key="GridCell.Tab.1.center" timestamp="1606271613167">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.1.center/0.25.1440.822@0.25.1440.822" timestamp="1606271613167" />
+    <state width="1419" height="210" key="GridCell.Tab.1.left" timestamp="1606271613167">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.1.left/0.25.1440.822@0.25.1440.822" timestamp="1606271613167" />
+    <state width="1419" height="210" key="GridCell.Tab.1.right" timestamp="1606271613168">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1419" height="210" key="GridCell.Tab.1.right/0.25.1440.822@0.25.1440.822" timestamp="1606271613168" />
+    <state x="458" y="120" key="SettingsEditor" timestamp="1606269366087">
+      <screen x="0" y="25" width="1440" height="823" />
+    </state>
+    <state x="458" y="120" key="SettingsEditor/0.25.1440.823@0.25.1440.823" timestamp="1606269366087" />
     <state x="327" y="199" key="Vcs.Push.Dialog.v2" timestamp="1605824732700">
       <screen x="0" y="23" width="1440" height="831" />
     </state>

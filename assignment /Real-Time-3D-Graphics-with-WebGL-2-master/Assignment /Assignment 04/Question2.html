@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Draw a circle that moves in a random direction</title>
+    <meta charset="utf-8"/>
+    <title>Randomly move two-points in the canvas </title>
 
 <body onload="main()">
 <canvas id="webgl" width="400" height="400">
@@ -13,13 +13,17 @@
 <script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/webgl-utils.js"></script>
 <script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/webgl-debug.js"></script>
 <script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/cuon-utils.js"></script>
+<script src="https://rawgit.com/huningxin/webglbook_examples/master/lib/cuon-matrix.js"></script>
 <script type="text/javascript">
-    // HelloTriangle.js (c) 2012 matsuda
+
+    // MultiPoint.js (c) 2012 matsuda
     // Vertex shader program
     var VSHADER_SOURCE =
         'attribute vec4 a_Position;\n' +
+        'uniform mat4 u_ModelMatrix;\n' +
         'void main() {\n' +
-        '  gl_Position = a_Position;\n' +
+        '  gl_Position = u_ModelMatrix * a_Position;\n' +
+        '  gl_PointSize = 12.0;\n' +
         '}\n';
 
     // Fragment shader program
@@ -53,20 +57,66 @@
         }
 
         // Specify the color for clearing <canvas>
-        gl.clearColor(0, 0, 0, 1);
+        gl.clearColor(0.4, 0.4, 0.2, 1.0);
 
-        // Clear <canvas>
-        gl.clear(gl.COLOR_BUFFER_BIT);
+        var u_ModelMatrix = gl.getUniformLocation(gl.program, 'u_ModelMatrix');
+        if (!u_ModelMatrix) {
+            console.log('Failed to get the storage location of u_ModelMatrix');
+            return;
+        }
 
-        // Draw the rectangle
-        gl.drawArrays(gl.TRIANGLES, 0, n);
+        var modelMatrix = new Matrix4();
+
+        var x = 0.0, y = 0.0
+        var x_t = 0.005, y_t = 0.005, x_new= 0.0, y_new = 0.0
+        
+        var tick = function () {
+
+            modelMatrix.translate(x_t, y_t, 0);
+            // This is important to init the canvas color
+            gl.clear(gl.COLOR_BUFFER_BIT);
+
+            gl.uniformMatrix4fv(u_ModelMatrix, false, modelMatrix.elements);
+            gl.drawArrays(gl.POINTS, 0, n);
+            //where x should go
+
+            x_new = x + get_random();
+            y_new = y + get_random();
+
+            if(x_new >= 0.9){
+                x_new = x_new  - 0.1
+            }else if (x_new <= -0.9 ){
+                x_new = x_new  + 0.1
+            }else if (y_new >= 0.9){
+                y_new = y_new  - 0.9
+            }else if (y_new <= -0.9){
+                y_new = y_new + 0.1
+            }
+
+            x_t = x_new - x
+            y_t = y_new - y
+
+            x = x_new
+            y = y_new
+            requestAnimationFrame(tick, canvas)
+
+        };
+        tick();
+
+
+    }
+
+    function get_random(){
+        const options = [-0.1, 0, 0.1];
+        return options[Math.floor(Math.random() * (3))];
+
     }
 
     function initVertexBuffers(gl) {
         var vertices = new Float32Array([
-            0, 0.5,   -0.5, -0.5,   0.5, -0.5
+            0.0, 0.0, 0.2, 0.2
         ]);
-        var n = 3; // The number of vertices
+        var n = 2; // The number of vertices
 
         // Create a buffer object
         var vertexBuffer = gl.createBuffer();
@@ -93,6 +143,7 @@
 
         return n;
     }
+
 
 </script>
 </head>
